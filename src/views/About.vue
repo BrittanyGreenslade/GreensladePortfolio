@@ -1,22 +1,27 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div>
+      <h1>Hi there! I'm Brittany.</h1>
+      <p>junior full stack developer</p>
+      <p>avid traveller</p>
+      <p>passionate linguist</p>
+    </div>
+    <div>
+      <h3>Career</h3>
+      <p>
+        I recently completed a full-stack development diploma program at
+        InnoTech College (Alberta).
+      </p>
+      <p>*insert technical skills here*</p>
+    </div>
   </div>
 </template>
 
 <script>
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: "About",
-  components: {
-    // HelloWorld
-  }
-}
+  components: {},
+};
 </script>
 
-
-
-<style scoped>
-
-</style>
+<style scoped></style>

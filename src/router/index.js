@@ -1,34 +1,30 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-
-Vue.use(VueRouter)
+import Vue from "vue";
+import VueRouter from "vue-router";
+import About from "../views/About.vue";
+import Contact from "../views/Contact.vue";
+import Works from "../views/Works.vue";
+Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'About',
-  //   component: Home
-  // },
   {
-    path: '/about',
-    name: 'About',
-    component:About
+    path: "/about",
+    name: "About",
+    component: About,
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component:Contact
+    path: "/contact",
+    name: "Contact",
+    component: Contact,
   },
   {
-    path: '/works',
-    name: 'Works',
-    component:Works
-  }
-]
+    path: "/works",
+    name: "Works",
+    component: Works,
+  },
+];
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

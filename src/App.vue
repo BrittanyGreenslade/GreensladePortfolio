@@ -4,9 +4,11 @@
     <about />
     <contact />
     <router-view />
+    <page-footer />
   </div>
 </template>
 <script>
+import PageFooter from "./components/PageFooter.vue";
 import PageHeader from "./components/PageHeader.vue";
 import About from "./views/About.vue";
 import Contact from "./views/Contact.vue";
@@ -16,6 +18,7 @@ export default {
     PageHeader,
     About,
     Contact,
+    PageFooter,
   },
 };
 </script>
@@ -27,35 +30,17 @@ PageHeader
   padding: 0;
   margin: 0;
 }
-html {
-  height: 100vh;
-  width: 100vw;
+#app {
+  min-height: 100vh;
+  width: 100%;
   display: grid;
-  place-items: center;
 }
 body {
-  height: 100vh;
-  display: grid;
-  place-items: center;
-  width: 100vw;
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  width: 100%;
-}
-body {
-  width: 100%;
-}
-
-#app {
-  height: 100vh;
-  display: grid;
-  width: 100%;
-  display: grid;
-  place-items: center;
-}
 .pageContainer {
+  margin-top: 6%;
   place-self: center;
   width: 90%;
 }

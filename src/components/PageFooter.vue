@@ -1,0 +1,21 @@
+<template>
+  <div id="pageContainer">
+    <router-link to="/about">About</router-link>
+    <router-link to="/contact">Contact</router-link>
+    <router-link to="/works">Projects</router-link>
+    <a href="https://www.linkedin.com/in/brittany-greenslade/">LinkedIn</a>
+    <p>Copyright © 2021 Brittany Greenslade</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "page-footer",
+};
+</script>
+
+<style scoped>
+#pageContainer {
+  text-align: center;
+}
+</style>

@@ -8,22 +8,34 @@
     <div class="skillsGroup">
       <p class="skill">Sass</p>
       <p class="skill">JavaScript</p>
-      <p class="skill">Vue</p>
+      <p class="skill">Vue.js</p>
     </div>
     <div class="skillsGroup">
-      <p class="skill">Apache</p>
-      <p class="skill">Maria DB</p>
+      <p class="skill">Python</p>
+      <p class="skill">Flask</p>
       <p class="skill">SQL</p>
     </div>
     <div class="skillsGroup">
+      <p class="skill">Visual Studio Code</p>
       <p class="skill">DBeaver</p>
-      <p class="skill">Flask</p>
-      <p class="skill">Python</p>
+    </div>
+    <div class="skillsGroup">
+      <p class="skill">AJAX</p>
+      <p class="skill">Maria DB</p>
+      <p class="skill">API</p>
+    </div>
+    <div class="skillsGroup">
+      <p class="skill">NPM</p>
+      <p class="skill">JSON</p>
+      <p class="skill">GitHub</p>
+    </div>
+    <div class="skillsGroup">
+      <p class="skill">Bash CLI</p>
+      <p class="skill">Linux</p>
+      <p class="skill">Apache</p>
     </div>
     <div class="skillsGroup">
       <p class="skill">Google Cloud Platform</p>
-    </div>
-    <div class="skillsGroup">
       <p class="skill">Responsive Web Design</p>
     </div>
   </div>
@@ -41,7 +53,8 @@ export default {
   border-radius: 10px;
   display: grid;
   place-items: center;
-  height: 40px;
+  height: 30px;
+  min-width: 110px;
 }
 .skillsGroup {
   display: grid;

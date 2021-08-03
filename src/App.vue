@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <page-header />
-    <about />
-    <contact />
-    <router-view />
+    <page-header class="header" />
+    <about-page v-if="routePath == `/`" />
+    <contact-page v-if="routePath == `/`" />
+    <works-page v-if="routePath == `/works`" />
     <page-footer />
   </div>
 </template>
 <script>
-import PageFooter from "./components/PageFooter.vue";
 import PageHeader from "./components/PageHeader.vue";
-import About from "./views/About.vue";
-import Contact from "./views/Contact.vue";
-
+import PageFooter from "./components/PageFooter.vue";
+import AboutPage from "./views/AboutPage.vue";
+import WorksPage from "./views/WorksPage.vue";
+import ContactPage from "./views/ContactPage.vue";
 export default {
   components: {
-    PageHeader,
-    About,
-    Contact,
     PageFooter,
+    WorksPage,
+    AboutPage,
+    PageHeader,
+    ContactPage,
+  },
+  computed: {
+    routePath() {
+      return this.$route.path;
+    },
   },
 };
 </script>
-PageHeader
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* font-family: 'Poppins', sans-serif; */
@@ -35,13 +40,77 @@ PageHeader
   width: 100%;
   display: grid;
 }
+#app > div {
+  display: grid;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.header {
+  position: fixed;
+  background: white;
+}
+.appPicDesktop {
+  width: 500px;
+}
+.appPicMbl {
+  height: 554px;
+}
 .pageContainer {
-  margin-top: 6%;
   place-self: center;
   width: 90%;
+  place-items: center;
+  margin-top: 10%;
+}
+
+.thirtyPt {
+  font-size: 30px;
+}
+.twentyTwoPt {
+  font-size: 22px;
+}
+.projectDesc,
+.projectLink {
+  font-size: 20px;
+  text-align: center;
+}
+.projectLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.projectLink:hover {
+  color: #735290;
+}
+.projectTitle {
+  font-size: 26px;
+}
+.projectCtrDsktp,
+.projectCtrMbl {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 5px 5px lightgrey;
+}
+.projectCtrDsktp {
+  grid-template-rows: 0.1 fr 1fr 0.1fr 0.5fr;
+}
+.projectCtrMbl {
+  grid-template-rows: 0.25fr 1.5fr 0.25fr 0.5fr;
+}
+.twoLinksCtr,
+.threeLinksCtr {
+  display: grid;
+  grid-auto-flow: column;
+  place-self: center;
+  place-items: center;
+}
+.twoLinksCtr {
+  width: 60%;
+}
+.threeLinksCtr {
+  width: 100%;
 }
 </style>

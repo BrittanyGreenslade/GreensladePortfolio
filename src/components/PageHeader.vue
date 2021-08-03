@@ -5,10 +5,12 @@
       <h2 id="name">Brittany Greenslade</h2>
     </div>
     <div id="nav">
-      <router-link to="/about">About</router-link>
-      <router-link to="/contact">Contact</router-link>
-      <router-link to="/works">Projects</router-link>
-      <a href="https://www.linkedin.com/in/brittany-greenslade/">LinkedIn</a>
+      <router-link :to="{ path: '/', hash: '#about' }">About</router-link>
+      <router-link to="/works">Works</router-link>
+      <router-link :to="{ path: '/', hash: '#contact' }">Contact</router-link>
+      <a target="_blank" href="https://www.linkedin.com/in/brittany-greenslade/"
+        >LinkedIn</a
+      >
     </div>
   </div>
 </template>
@@ -23,18 +25,23 @@ export default {
 #nameAndLogo {
   display: grid;
   width: 450px;
+  height: 100px;
   grid-template-columns: 1fr 4fr;
+  margin-left: 20px;
+  margin-top: 15px;
 }
+
 #name {
-  align-self: end;
+  align-self: center;
   justify-self: start;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 26px;
 }
 #headerContainer {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  width: 95%;
-  place-self: center;
+  width: 100%;
+  height: 10vh;
 }
 .logo {
   width: 80px;
@@ -45,6 +52,7 @@ export default {
   display: grid;
   grid-auto-flow: column;
   column-gap: 10px;
+  margin-right: 30px;
 }
 #nav a {
   font-size: 20px;

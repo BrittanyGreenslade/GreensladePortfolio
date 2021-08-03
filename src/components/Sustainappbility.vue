@@ -17,13 +17,13 @@
         target="_blank"
         class="projectLink"
         href="https://github.com/BrittanyGreenslade/TweetrProject"
-        >View front-end code</a
+        >Front-end code</a
       >
       <a
         target="_blank"
         class="projectLink"
         href="https://github.com/BrittanyGreenslade/tweetrBackEnd"
-        >View back-end code</a
+        >Back-end code</a
       >
     </div>
     <p class="projectDesc">

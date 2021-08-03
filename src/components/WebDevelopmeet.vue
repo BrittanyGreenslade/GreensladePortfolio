@@ -14,13 +14,13 @@
         target="_blank"
         class="projectLink"
         href="https://github.com/BrittanyGreenslade/mvpFrontEnd"
-        >View front-end code</a
+        >Front-end code</a
       >
       <a
         target="_blank"
         class="projectLink"
         href="https://github.com/BrittanyGreenslade/mvpBackEnd"
-        >View back-end code</a
+        >Back-end code</a
       >
     </div>
     <p class="projectDesc">

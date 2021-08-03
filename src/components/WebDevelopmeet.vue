@@ -28,8 +28,8 @@
       events, with an emphasis on finding events within a chosen radius of their
       specified location. Front-end created using Vue.js and Axios. Back-end
       created using MariaDB, SQL, DBeaver, Python, Flask, and the Python
-      open-source 'haversine' library for geo-location. Hosted using the Google
-      Cloud Platform and Apache.
+      open-source 'haversine' library for geo-location mapping. Hosted using the
+      Google Cloud Platform and Apache.
     </p>
   </div>
 </template>

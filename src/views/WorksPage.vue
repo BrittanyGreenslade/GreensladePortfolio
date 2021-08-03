@@ -37,6 +37,7 @@ export default {
   column-gap: 20px;
 }
 #projectsMbl {
+  width: 90%;
   margin-top: 50px;
 }
 h1 {

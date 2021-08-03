@@ -82,9 +82,6 @@ body {
 .projectLink:hover {
   color: #735290;
 }
-/* .projectTitle {
-  font-size: 26px;
-} */
 .projectCtrDsktp,
 .projectCtrMbl {
   display: grid;
@@ -92,15 +89,17 @@ body {
   border: 1px solid black;
   border-radius: 10px;
   padding: 30px;
-  width: 500px;
-  min-height: 500px;
   box-shadow: 5px 5px lightgrey;
 }
 .projectCtrDsktp {
   grid-template-rows: 0.1 fr 1fr 0.1fr 0.5fr;
+  width: 500px;
+  min-height: 500px;
 }
 .projectCtrMbl {
   grid-template-rows: 0.25fr 1.5fr 0.25fr 0.5fr;
+  min-height: 980px;
+  width: 600px;
 }
 .twoLinksCtr,
 .threeLinksCtr {

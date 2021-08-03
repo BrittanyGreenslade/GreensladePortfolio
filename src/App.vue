@@ -51,7 +51,7 @@ body {
   background: white;
 }
 .appPicDesktop {
-  width: 500px;
+  width: 400px;
 }
 .appPicMbl {
   height: 554px;
@@ -82,9 +82,9 @@ body {
 .projectLink:hover {
   color: #735290;
 }
-.projectTitle {
+/* .projectTitle {
   font-size: 26px;
-}
+} */
 .projectCtrDsktp,
 .projectCtrMbl {
   display: grid;
@@ -92,6 +92,8 @@ body {
   border: 1px solid black;
   border-radius: 10px;
   padding: 30px;
+  width: 500px;
+  min-height: 500px;
   box-shadow: 5px 5px lightgrey;
 }
 .projectCtrDsktp {

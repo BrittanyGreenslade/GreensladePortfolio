@@ -28,7 +28,7 @@ export default {
   height: 100px;
   grid-template-columns: 1fr 4fr;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #name {
@@ -41,7 +41,9 @@ export default {
   display: grid;
   grid-template-columns: 1fr 2fr;
   width: 100%;
-  height: 10vh;
+  max-height: 15vh;
+  position: fixed;
+  background: white;
 }
 .logo {
   width: 80px;

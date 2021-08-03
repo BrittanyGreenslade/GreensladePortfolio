@@ -79,7 +79,7 @@ export default {
   width: 375px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 100;
 }
 

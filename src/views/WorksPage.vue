@@ -20,6 +20,9 @@ import WebDevelopmeet from "../components/WebDevelopmeet.vue";
 export default {
   components: { PieceOnEarth, PokemonBattle, Sustainappbility, WebDevelopmeet },
   name: "works-page",
+  mounted() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 
@@ -28,8 +31,9 @@ export default {
 #projectsMbl {
   display: grid;
   grid-auto-flow: column;
-  width: 100%;
-  min-height: 700px;
+  place-items: center;
+  width: 80%;
+  min-height: 500px;
   column-gap: 20px;
 }
 #projectsMbl {

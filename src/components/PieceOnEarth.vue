@@ -33,6 +33,6 @@ export default {
 
 <style scoped>
 .appPicDesktop {
-  height: 341.07px;
+  height: 272.86px;
 }
 </style>

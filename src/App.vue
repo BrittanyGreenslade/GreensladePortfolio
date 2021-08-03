@@ -97,9 +97,9 @@ body {
   min-height: 500px;
 }
 .projectCtrMbl {
+  height:1050px;
   grid-template-rows: 0.25fr 1.5fr 0.25fr 0.5fr;
-  min-height: 980px;
-  width: 600px;
+  max-width: 600px;
 }
 .twoLinksCtr,
 .threeLinksCtr {

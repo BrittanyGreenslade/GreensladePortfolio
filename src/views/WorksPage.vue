@@ -36,7 +36,7 @@ export default {
   column-gap: 20px;
 }
 #projectsDsktp {
-  width: 80%;
+  width: 90%;
   min-height: 600px;
 }
 #projectsMbl {

@@ -32,13 +32,12 @@ export default {
   display: grid;
   grid-auto-flow: column;
   place-items: center;
-  width: 80%;
-  min-height: 500px;
+  min-height: 600px;
   column-gap: 20px;
 }
 #projectsDsktp {
-  min-width: 80%;
-  min-height: 500px;
+  width: 80%;
+  min-height: 600px;
 }
 #projectsMbl {
   width: 90%;

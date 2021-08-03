@@ -30,7 +30,7 @@
       Intended to be a Twitter clone, but themed to meet my interests: an app
       where users can share ideas about sustainability and environmental topics.
       Initially a simple front-end CRUD application built using Vue.js which
-      used Axios to interact with an API. Following this, we created our own
+      used Axios to interact with a REST API. Following this, we created our own
       database and API using DBeaver, SQL, MariaDB, Flask, and Python. Hosted
       using the Google Cloud Platform and Apache.
     </p>

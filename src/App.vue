@@ -90,16 +90,15 @@ body {
   border-radius: 10px;
   padding: 30px;
   box-shadow: 5px 5px lightgrey;
+  width: 500px;
 }
 .projectCtrDsktp {
   grid-template-rows: 0.1 fr 1fr 0.1fr 0.5fr;
-  width: 500px;
   min-height: 600px;
 }
 .projectCtrMbl {
   height: 1050px;
   grid-template-rows: 0.25fr 1.5fr 0.25fr 0.5fr;
-  max-width: 600px;
 }
 .twoLinksCtr,
 .threeLinksCtr {

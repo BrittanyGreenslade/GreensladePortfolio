@@ -87,6 +87,7 @@ h1 {
     place-items: center;
     grid-auto-flow: column;
     column-gap: 80px;
+    width: 100%;
   }
   h1 {
     margin-bottom: 35px;

@@ -173,6 +173,7 @@ h2 {
     display: grid;
     grid-template-columns: 1.25fr 1.5fr;
     min-height: 400px;
+    margin-top: 50px;
   }
   #introText {
     align-self: center;

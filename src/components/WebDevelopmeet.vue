@@ -24,12 +24,12 @@
       >
     </div>
     <p class="projectDesc">
-      A full-stack app for people in the development industry to host and attend
-      events, with an emphasis on finding events within a chosen radius of their
-      specified location. Front-end created using Vue.js and Axios. Back-end
-      created using MariaDB, SQL, DBeaver, Python, Flask, and the Python
-      open-source 'haversine' library for geo-location mapping. Hosted using the
-      Google Cloud Platform and Apache.
+      A full-stack application for people in the development industry to host
+      and attend events, with an emphasis on finding events within a chosen
+      radius of their specified location. The front-end was created using Vue.js
+      and Axios. The back-end was created using MariaDB, SQL, DBeaver, Python,
+      Flask, and the Python open-source 'haversine' library for geo-location
+      mapping. Hosted using the Google Cloud Platform and Apache.
     </p>
   </div>
 </template>

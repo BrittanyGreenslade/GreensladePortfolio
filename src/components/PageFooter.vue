@@ -19,10 +19,16 @@ export default {
 #footer {
   place-self: center;
   /* border-top: 1px solid black; */
-  width: 60%;
+  width: 100%;
   text-align: center;
   height: 10vh;
   display: grid;
   place-items: center;
+  border-top: 1px solid black;
+}
+@media only screen and (min-width: 600px) {
+  #footer {
+    border: none;
+  }
 }
 </style>

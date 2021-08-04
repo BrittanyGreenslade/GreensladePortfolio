@@ -1,13 +1,25 @@
 <template>
   <div id="works" class="pageContainer">
     <h1>My Projects</h1>
-    <div id="projectsDsktp">
-      <piece-on-earth />
-      <pokemon-battle />
+    <div id="tabletProjects">
+      <div id="projectsDsktp">
+        <piece-on-earth />
+        <pokemon-battle />
+      </div>
+      <div id="projectsMbl">
+        <sustainappbility />
+        <web-developmeet />
+      </div>
     </div>
-    <div id="projectsMbl">
-      <sustainappbility />
-      <web-developmeet />
+    <div id="desktopProjects">
+      <div id="projectsDsktp">
+        <piece-on-earth />
+        <pokemon-battle />
+      </div>
+      <div id="projectsMbl">
+        <sustainappbility />
+        <web-developmeet />
+      </div>
     </div>
   </div>
 </template>
@@ -30,22 +42,56 @@ export default {
 #projectsDsktp,
 #projectsMbl {
   display: grid;
-  grid-auto-flow: column;
   place-items: center;
-  min-height: 600px;
-  column-gap: 20px;
 }
 #projectsDsktp {
   width: 90%;
-  min-height: 600px;
+  place-self: center;
+  row-gap: 20px;
 }
 #projectsMbl {
   width: 90%;
-  margin-top: 50px;
+  place-self: center;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+#projectsMbl:last-child {
+  margin-bottom: 20px;
 }
 h1 {
-  margin-bottom: 35px;
-  font-size: 60px;
-  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+#tabletProjects {
+  display: grid;
+}
+#desktopProjects {
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  #projectsDsktp {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  #tabletProjects {
+    display: none;
+  }
+  #desktopProjects {
+    display: grid;
+  }
+  #projectsDsktp,
+  #projectsMbl {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    column-gap: 80px;
+  }
+  h1 {
+    margin-bottom: 35px;
+    font-size: 80px;
+    font-weight: lighter;
+  }
 }
 </style>

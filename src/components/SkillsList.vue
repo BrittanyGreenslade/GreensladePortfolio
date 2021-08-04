@@ -35,8 +35,8 @@
       <p class="skill">Apache</p>
     </div>
     <div class="skillsGroup">
-      <p class="skill">Google Cloud Platform</p>
-      <p class="skill">Responsive Web Design</p>
+      <p class="skill" id="skill1Mbl">Google Cloud Platform</p>
+      <p class="skill" id="skill2Mbl">Responsive Web Design</p>
     </div>
   </div>
 </template>
@@ -48,21 +48,39 @@ export default {
 </script>
 
 <style scoped>
-.skill {
-  border: 1px solid #ced1df;
-  border-radius: 10px;
-  display: grid;
-  place-items: center;
-  height: 30px;
-  min-width: 110px;
-}
 .skillsGroup {
   display: grid;
   grid-auto-flow: column;
   column-gap: 5px;
   margin-bottom: 5px;
 }
+.skill {
+  border: 1px solid #ced1df;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  height: 30px;
+  text-align: center;
+}
 #pageContainer {
-  width: 70%;
+  width: 85%;
+  margin-top: 20px;
+  place-self: center;
+}
+#skill1Mbl,
+#skill2Mbl {
+  height: 50px;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .skill {
+    min-width: 110px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #pageContainer {
+    margin-top: none;
+  }
 }
 </style>

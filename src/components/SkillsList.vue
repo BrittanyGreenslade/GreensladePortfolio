@@ -21,7 +21,7 @@
     </div>
     <div class="skillsGroup">
       <p class="skill">AJAX</p>
-      <p class="skill">Maria DB</p>
+      <p class="skill">MariaDB</p>
       <p class="skill">API</p>
     </div>
     <div class="skillsGroup">
@@ -33,6 +33,30 @@
       <p class="skill">Bash CLI</p>
       <p class="skill">Linux</p>
       <p class="skill">Apache</p>
+    </div>
+            <div class="skillsGroup">
+      <p class="skill" id="skill3Mbl">Amazon Web Services</p>
+            <p class="skill">React Native</p>
+    </div>
+        <div class="skillsGroup">
+      <p class="skill">Expo</p>
+      <p class="skill">Material-UI</p>
+      <p class="skill">Stripe</p>
+    </div>
+            <div class="skillsGroup">
+      <p class="skill">MongoDB</p>
+      <p class="skill">Git</p>
+      <p class="skill">Stripe</p>
+    </div>
+                <div class="skillsGroup">
+      <p class="skill">React Router</p>
+      <p class="skill">SQLite</p>
+      <p class="skill">React</p>
+    </div>
+                    <div class="skillsGroup">
+
+
+      <!-- <p class="skill">React</p> -->
     </div>
     <div class="skillsGroup">
       <p class="skill" id="skill1Mbl">Google Cloud Platform</p>
@@ -67,11 +91,11 @@ export default {
   margin-top: 20px;
   place-self: center;
 }
-#skill1Mbl,
+/* #skill1Mbl,
 #skill2Mbl {
-  height: 50px;
+  height: 30px;
   text-align: center;
-}
+} */
 @media only screen and (min-width: 600px) {
   .skill {
     min-width: 110px;

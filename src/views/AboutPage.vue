@@ -10,7 +10,7 @@
         <div id="introText">
           <h1>Hi there! I'm Brittany.</h1>
           <div>
-            <p class="twentyTwoPt">Junior Full Stack Developer</p>
+            <p class="twentyTwoPt">Junior Full-Stack Developer</p>
             <p class="twentyTwoPt">Edmonton, Canada</p>
             <p class="twentyTwoPt">Sustainability Advocate</p>
             <p class="twentyTwoPt">Avid Traveller</p>
@@ -23,14 +23,18 @@
           <h2>Experience</h2>
           <p>
             I am a junior full-stack developer from Edmonton, Alberta. I have
-            created 4 large projects and many smaller projects thus far. I am
-            especially intrigued by back-end development; however, I appreciate
-            the creative expression that front-end projects allow for. I've
-            always had a passion for language learning: I have a degree in
-            German Language & Literature, with a minor in Linguistics. I am
-            eager to learn more about the tech industry, to use my
-            problem-solving skills to navigate new technologies, and excited to
-            cross paths with like-minded individuals along the way!
+            worked as a full-stack React & React Native developer for one year
+            with eOceans, an ocean conservation app that crowdsources data to be
+            analyzed by scientists in order to help protect marine areas around
+            the world. Additionally, I have created 4 large personal projects
+            and many smaller projects. I am especially intrigued by back-end
+            development; however, I appreciate the creative expression that
+            front-end projects allow for. I've always had a passion for language
+            learning: I have a degree in German Language & Literature, with a
+            minor in Linguistics. I am eager to learn more about the tech
+            industry, to use my problem-solving skills to navigate new
+            technologies, and excited to cross paths with like-minded
+            individuals along the way!
           </p>
         </div>
 
@@ -62,12 +66,15 @@
         <div>
           <h2>Experience</h2>
           <p id="personalDesc">
-            I am a junior full-stack developer from Edmonton, Alberta. I have
-            created 4 large projects and many smaller projects thus far. I am
+            I am a junior full-stack developer from Edmonton, Alberta. I've
+            always had a passion for language learning - I have a degree in
+            German Language & Literature, with a minor in Linguistics - which
+            eventually led me to exploring programming languages. Since the
+            beginning of my coding journey, I have created 4 large personal
+            projects as well as multiple smaller projects, and have been a
+            full-stack developer at eOceans full time. I am
             especially intrigued by back-end development; however, I appreciate
-            the creative expression that front-end projects allow for. I've
-            always had a passion for language learning: I have a degree in
-            German Language & Literature, with a minor in Linguistics. I am
+            the creative expression that front-end development allows for. I am
             eager to learn more about the tech industry, to use my
             problem-solving skills to navigate new technologies, and excited to
             cross paths with like-minded individuals along the way!

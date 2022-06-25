@@ -15,7 +15,7 @@
       <a
         class="thirtyPt"
         target="_blank"
-        href="https://drive.google.com/file/d/15IzAkbxVna3dFGwM3xekYY6GxBk6myBW/view?usp=sharing"
+        href="https://docs.google.com/document/d/1Qg_BXamlF8IDSdLKd2iGrLO2fbMTb08b/edit?usp=sharing&ouid=113226337062373520452&rtpof=true&sd=true"
         >Resume</a
       >
     </div>

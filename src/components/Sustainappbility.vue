@@ -10,7 +10,7 @@
       <a
         target="_blank"
         class="projectLink"
-        href="https://www.sustainappbility.ml"
+        href="https://www.sustainappbility.tk"
         >Go to site</a
       >
       <a

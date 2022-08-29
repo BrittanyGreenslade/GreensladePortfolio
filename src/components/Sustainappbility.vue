@@ -43,4 +43,7 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.projectDesc{
+height:300px;
+}</style>

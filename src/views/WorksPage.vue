@@ -10,6 +10,9 @@
         <sustainappbility />
         <web-developmeet />
       </div>
+            <div id="projectsMbl">
+        <e-oceans />
+      </div>
     </div>
     <div id="desktopProjects">
       <div id="projectsDsktp">
@@ -20,17 +23,27 @@
         <sustainappbility />
         <web-developmeet />
       </div>
+      <div id="projectsMbl">
+        <e-oceans />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import PieceOnEarth from "../components/PieceOnEarth.vue";
+import eOceans from "../components/eOceans.vue";
 import PokemonBattle from "../components/PokemonBattle.vue";
 import Sustainappbility from "../components/Sustainappbility.vue";
 import WebDevelopmeet from "../components/WebDevelopmeet.vue";
 export default {
-  components: { PieceOnEarth, PokemonBattle, Sustainappbility, WebDevelopmeet },
+  components: {
+    PieceOnEarth,
+    PokemonBattle,
+    Sustainappbility,
+    WebDevelopmeet,
+    eOceans,
+  },
   name: "works-page",
   mounted() {
     window.scrollTo(0, 0);

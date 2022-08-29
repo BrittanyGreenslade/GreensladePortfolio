@@ -22,17 +22,17 @@
         <div id="careerText">
           <h2>Experience</h2>
           <p>
-            I am a junior full-stack developer from Edmonton, Alberta. I have
+            I am a junior full-stack developer from Edmonton, Alberta. I have a
+            Full-Stack development diploma from InnoTech College, as well as a
+            degree German & Linguistics from the University of Alberta. I have
             worked as a full-stack React & React Native developer for one year
-            with eOceans, an ocean conservation app that crowdsources data to be
-            analyzed by scientists in order to help protect marine areas around
-            the world. Additionally, I have created 4 large personal projects
-            and many smaller projects. I am especially intrigued by back-end
-            development; however, I appreciate the creative expression that
-            front-end projects allow for. I've always had a passion for language
-            learning: I have a degree in German Language & Literature, with a
-            minor in Linguistics. I am eager to learn more about the tech
-            industry, to use my problem-solving skills to navigate new
+            with eOceans - an ocean conservation app that crowdsources data to
+            be analyzed by scientists, in order to help protect marine areas
+            around the world. Additionally, I have created 4 large personal
+            projects and multiple smaller projects. I am especially intrigued by
+            back-end development; however, I appreciate the creative expression
+            that front-end projects allow for. I am eager to learn more about
+            the tech industry, to use my problem-solving skills to navigate new
             technologies, and excited to cross paths with like-minded
             individuals along the way!
           </p>
@@ -72,12 +72,12 @@
             eventually led me to exploring programming languages. Since the
             beginning of my coding journey, I have created 4 large personal
             projects as well as multiple smaller projects, and have been a
-            full-stack developer at eOceans full time. I am
-            especially intrigued by back-end development; however, I appreciate
-            the creative expression that front-end development allows for. I am
-            eager to learn more about the tech industry, to use my
-            problem-solving skills to navigate new technologies, and excited to
-            cross paths with like-minded individuals along the way!
+            full-stack developer at eOceans full time. I am especially intrigued
+            by back-end development; however, I appreciate the creative
+            expression that front-end development allows for. I am eager to
+            learn more about the tech industry, to use my problem-solving skills
+            to navigate new technologies, and excited to cross paths with
+            like-minded individuals along the way!
           </p>
         </div>
 

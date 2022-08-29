@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style scoped>
-.appPicDesktop {
+/* .appPicDesktop {
   height: 272.86px;
-}
+} */
 </style>

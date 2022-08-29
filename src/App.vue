@@ -110,6 +110,7 @@ body {
 }
 .appPicMbl {
   height: 350px;
+  width:250px
 }
 .projectTitle {
   font-size: 20px;
@@ -136,6 +137,10 @@ body {
     width: 300px;
     height: 280px;
   }
+  .appPicMbl{
+      width:300px;
+      height:280px
+  }
   .projectCtrDsktp,
   .projectCtrMbl {
     padding: 20px;
@@ -159,6 +164,7 @@ body {
   }
   .appPicDesktop {
     width: 400px;
+    height:280px;
   }
   .pageContainer {
     margin-top: 80px;

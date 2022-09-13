@@ -24,15 +24,15 @@
           <p>
             I am a junior full-stack developer from Edmonton, Alberta. I have a
             Full-Stack Development diploma from InnoTech College, as well as a
-            degree in German & Linguistics from the University of Alberta. I have
-            worked as a full-stack React & React Native developer for one year
-            with eOceans - an ocean conservation app that crowdsources data to
-            be analyzed by scientists, in order to help protect marine areas
-            around the world. Additionally, I have created 4 large personal
-            projects and multiple smaller projects. I am especially intrigued by
-            back-end development; however, I appreciate the creative expression
-            that front-end projects allow for. I am eager to learn more about
-            the tech industry, to use my problem-solving skills to navigate new
+            degree in German & Linguistics from the University of Alberta. I
+            have worked as a full-stack React & React Native developer for one
+            year with eOceans - an ocean conservation app that crowdsources data
+            to be analyzed and organized by marine scientists. Additionally, I
+            have created 4 large personal projects and multiple smaller
+            projects. I am especially intrigued by back-end development;
+            however, I appreciate the creative expression that front-end
+            projects allow for. I am eager to learn more about the tech
+            industry, to use my problem-solving skills to navigate new
             technologies, and excited to cross paths with like-minded
             individuals along the way!
           </p>

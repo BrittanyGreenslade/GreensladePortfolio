@@ -23,8 +23,8 @@
           <h2>Experience</h2>
           <p>
             I am a junior full-stack developer from Edmonton, Alberta. I have a
-            Full-Stack development diploma from InnoTech College, as well as a
-            degree German & Linguistics from the University of Alberta. I have
+            Full-Stack Development diploma from InnoTech College, as well as a
+            degree in German & Linguistics from the University of Alberta. I have
             worked as a full-stack React & React Native developer for one year
             with eOceans - an ocean conservation app that crowdsources data to
             be analyzed by scientists, in order to help protect marine areas

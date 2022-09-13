@@ -19,7 +19,7 @@
     </div>
     <p class="projectDesc">
       A basic front-end, mobile-responsive mock restaurant website completed
-      based a requirements-gathering with a "pizza shop owner". Built using
+      based on a requirements-gathering session with a "pizza shop owner". Built using
       HTML, CSS and Sass. Hosted using Google Cloud Platform and Apache.
     </p>
   </div>

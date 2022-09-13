@@ -5,7 +5,7 @@
     <router-link to="/contact">Contact</router-link>
     <router-link to="/works">Projects</router-link> -->
     <!-- <a href="https://www.linkedin.com/in/brittany-greenslade/">LinkedIn</a> -->
-    <p>Copyright © 2021 Brittany Greenslade</p>
+    <p>2022 Brittany Greenslade</p>
   </div>
 </template>
 

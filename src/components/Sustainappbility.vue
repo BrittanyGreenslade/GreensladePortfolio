@@ -3,7 +3,7 @@
     <h2 class="projectTitle">Sustainappbility (Twitter Clone)</h2>
     <img
       class="appPicMbl"
-      src="../assets/sustainappbility.jpg"
+      src="../assets/sustainappbility.png"
       alt="Sustainappbility landing page image"
     />
     <div class="threeLinksCtr">

@@ -3,7 +3,7 @@
     <h1>Want to get in touch?</h1>
     <div id="infoCtr">
       <p class="thirtyPt">Brittany Greenslade</p>
-      <a class="thirtyPt" href="mailto:bgreensl@ualberta.ca"
+      <a class="thirtyPt" href="mailto:brittany.l.greenslade@gmail.com"
         >brittany.l.greenslade@gmail.com</a
       >
       <a

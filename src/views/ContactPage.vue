@@ -4,7 +4,7 @@
     <div id="infoCtr">
       <p class="thirtyPt">Brittany Greenslade</p>
       <a class="thirtyPt" href="mailto:bgreensl@ualberta.ca"
-        >bgreensl@ualberta.ca</a
+        >brittany.l.greenslade@gmail.com</a
       >
       <a
         target="_blank"

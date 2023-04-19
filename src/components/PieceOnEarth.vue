@@ -7,7 +7,7 @@
       alt="Piece on Earth Pizza landing page image"
     />
     <div class="twoLinksCtr">
-      <a target="_blank" class="projectLink" href="https://www.pieceonearth.tk"
+      <a target="_blank" class="projectLink" href="https://www.pieceonearth.bgreenslade.com"
         >Go to site</a
       >
       <a

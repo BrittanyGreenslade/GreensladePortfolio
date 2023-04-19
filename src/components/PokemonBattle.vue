@@ -7,7 +7,7 @@
       alt="Pokémon Battle landing page image"
     />
     <div class="twoLinksCtr">
-      <a target="_blank" class="projectLink" href="https://www.battleathon.tk"
+      <a target="_blank" class="projectLink" href="https://www.battleathon.bgreenslade.com"
         >Go to site</a
       >
       <a

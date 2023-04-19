@@ -7,7 +7,7 @@
       alt="Web Developmeet landing page image"
     />
     <div class="threeLinksCtr">
-      <a target="_blank" class="projectLink" href="https://www.developmeet.ml"
+      <a target="_blank" class="projectLink" href="https://www.developmeet.bgreenslade.com"
         >Go to site</a
       >
       <a
